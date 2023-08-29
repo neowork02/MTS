@@ -1,0 +1,754 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1440">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>main|MTS</title>
+<link rel="stylesheet" type="text/css" href="../resources/css/style.css">
+<script type="text/javascript" src="../resources/js/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="../resources/js/common.js"></script>
+</head>
+
+<body>
+    <!-- wrap -->
+    <div id="wrap">
+        <!-- Top menu -->
+        <header>
+            <section>
+                <article>
+                    <h1><a href="#none" title="mts 홈페이지로 이동"><img src="../resources/images/layout/mts_logo.svg" alt="교통과학장비 관리업무 시스템"></a></h1>
+                    <div id="gnb">
+                        <ul class="nav">
+                            <li><a href="#none"><span>보고서 관리</span></a></li>
+                            <li><a href="#none"><span>장비운용</span></a></li>
+                            <li><a href="#none"><span>통계관리</span></a></li>
+                            <li><a href="#none"><span>인력 자원</span></a></li>
+                            <li><a href="#none"><span>커뮤니티</span></a></li>
+                        </ul>
+                        <div class="sub_group">
+                            <ul>
+                                <li>
+                                    <h3>보고서 관리</h3>
+                                    <ul>
+                                        <li><a href="#none"><span>임시보관함</span></a></li>
+                                        <li><a href="#none"><span>송신함(기안함)</span></a></li>
+                                        <li><a href="#none"><span>수신함</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h3>장비운용</h3>
+                                    <ul>
+                                        <li><a href="#none"><span>장비관리</span></a></li>
+                                        <li><a href="#none"><span>장비운영</span></a></li>
+                                        <li><a href="#none"><span>민원접수 관리</span></a></li>
+                                        <li><a href="#none"><span>기술지원 관리</span></a></li>
+                                        <li><a href="#none"><span>사업실적 관리</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h3>통계관리</h3>
+                                    <ul>
+                                        <li><a href="#none"><span>교통과학장비 현황</span></a></li>
+                                        <li><a href="#none"><span>인력자원 현황</span></a></li>
+                                        <li><a href="#none"><span>사업실적 현황</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h3>인력 자원</h3>
+                                    <ul>
+                                        <li><a href="#none"><span>본/지부 정보</span></a></li>
+                                        <li><a href="#none"><span>협력업체 정보</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h3>커뮤니티</h3>
+                                    <ul>
+                                        <li><a href="#none"><span>MTS 게시판</span></a></li>
+                                        <li><a href="#none"><span>안내자료 게시판</span></a></li>
+                                        <li><a href="#none"><span>점검기기</span></a></li>
+                                        <li><a href="#none"><span>자료 공유</span></a></li>
+                                        <li><a href="#none"><span>TEMS</span></a></li>
+                                        <li><a href="#none"><span>개발 내용</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="my_info">
+                        <li>
+                            <span class="icon person">info</span><span class="text">김교통</span>
+                            <div class="usermange_box">
+                                <input type="button" class="usermange_box" value="[경기남부]">
+                            </div>
+                        </li>
+                        <li><a href="#none"><span class="icon logout">로그아웃</span></a></li>
+                        <li><a href="#none"><span class="icon setting">설정</span></a></li>
+                    </ul>
+                </article>
+            </section>
+            
+        </header>
+        <!-- //Top menu -->
+        <!-- container -->
+        <main id="container" class="main">
+            <!-- main contents -->
+            <section class="contents">
+                <article>
+                    <div class="main_wrap">
+                        <!-- box full top -->
+                        <div class="box_wrap">
+                            <div class="box full">
+                                
+                                <!-- tab_container -->
+                                <div class="tab_container">
+                                    <div class="header">
+                                        <div class="select_wrap">
+                                            <select>
+                                                <option>서울경찰청</option>
+                                            </select>
+                                        </div>
+                                        <!-- tabs -->
+                                        <div class="tabs">
+                                            <ul>
+                                                <li class="active">
+                                                    <a href="#none" rel="#tab1">무인교통 단속장비 연도별 규격지정 현황</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#none" rel="#tab2">관리업무시스템 처리현황</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- //tabs -->
+                                    </div>
+                                    <!-- tab contents -->
+                                    <div class="tab_content" id="tab1">
+                                        <div class="list_group">
+                                            <!-- list -->
+                                            <div class="list">
+                                                <div class="top">
+                                                    '09년 이전 규격
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2021년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2020년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2019년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2018년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2017년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2016년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- //list -->
+                                            <!-- list -->
+                                            <div class="list">
+                                                <div class="top">
+                                                    (’09.07) 1차 표준화
+                                                </div>
+                                                
+                                                <ul>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2021년</dt>
+                                                            <dd><span>-</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2020년</dt>
+                                                            <dd><span>-</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2019년</dt>
+                                                            <dd><span>-</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2018년</dt>
+                                                            <dd><span>-</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2017년</dt>
+                                                            <dd><span>-</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2016년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- //list -->
+                                            <!-- list -->
+                                            <div class="list">
+                                                <div class="top">
+                                                    (’12.03) 2차 표준화
+                                                </div>
+                                                
+                                                <ul>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2021년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2020년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2019년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2018년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2017년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2016년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- //list -->
+                                            <!-- list -->
+                                            <div class="list">
+                                                <div class="top">
+                                                    (’17,03) _아
+                                                </div>
+                                                
+                                                <ul>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2021년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2020년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2019년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2018년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2017년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2016년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- //list -->
+                                            <!-- list -->
+                                            <div class="list">
+                                                <div class="top">
+                                                    (’20,10) _자
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2021년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2020년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2019년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2018년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2017년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                    <li>
+                                                        <dl>
+                                                            <dt>2016년</dt>
+                                                            <dd><span>12</span><em>대</em></dd>
+                                                        </dl>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- //list -->
+                                        </div>
+                                    </div>
+                                    <!-- //tab contents -->
+                                    <!-- tab contents -->
+                                    <div class="tab_content" id="tab2">
+                                        <div class="list_table">
+                                            <table>
+                                                <colgroup>
+                                                    <col width="12%">
+                                                    <col width="12%">
+                                                    <col width="15%">
+                                                    <col width="10%">
+                                                    <col width="*">
+                                                </colgroup>
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col" colspan="2">항 목 (클릭!!! 바로가기)</th>
+                                                        <th scope="col">입력(보고)기한</th>
+                                                        <th scope="col">처리결과</th>
+                                                        <th scope="col">주요내용</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row" rowspan="4">장비관리</th>
+                                                        <td><a href="#none">☞ <span>사전정보관리</span></a></td>
+                                                        <td>(매주 목요일까지)</td>
+                                                        <td class="center">-</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#none">☞ <span>설치정보관리</span></td>
+                                                        <td>(변경 발생시)</td>
+                                                        <td class="center">-</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#none">☞ <span>운영정보안내</span></td>
+                                                        <td>(매월 15일까지)</td>
+                                                        <td class="center">-</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#none">☞ <span>위치정보관리</span></td>
+                                                        <td>(위치 선정시)</td>
+                                                        <td class="center">-</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row" rowspan="2">사업실적</th>
+                                                        <td><a href="#none">☞ <span>위탁관리</span></td>
+                                                        <td>(매월 15일까지)</td>
+                                                        <td class="center">-</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#none">☞ <span>유지보수</span></td>
+                                                        <td>(매월 15일까지)</td>
+                                                        <td class="center">-</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row" rowspan="4">장비운영</th>
+                                                        <td><a href="#none">☞ <span>장애·원인자 접수</span></td>
+                                                        <td>(발생 당일)</td>
+                                                        <td class="center">-</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#none">☞ <span>부품관리</span></td>
+                                                        <td>(반입·반출 시)</td>
+                                                        <td class="center">-</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#none">☞ <span>민원접수 처리</span></td>
+                                                        <td>(접수 당일)</td>
+                                                        <td class="center">-</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href="#none">☞ <span>장비점검 관리</span></td>
+                                                        <td>(매월)</td>
+                                                        <td class="center">-</td>
+                                                        <td></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row" rowspan="2">인력·자원</th>
+                                                        <td><a href="#none">☞ <span>지방청 인력</span></td>
+                                                        <td>(변동 발생시)</td>
+                                                        <td class="center">-</td>
+                                                        <td></td>
+                                                    <tr>
+                                                        <td><a href="#none">☞ <span>지방청 차량</span></td>
+                                                        <td>(변동 발생시)</td>
+                                                        <td class="center">-</td>
+                                                        <td></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <!-- //tab contents -->
+                                </div>
+                                <!-- //tab_container -->
+                            </div>
+                        </div>
+                        <!-- //box full top -->
+
+                        <!-- box half bottom -->
+                        <div class="box_wrap">
+                            <!-- 게시판/TEMS -->
+                            <div class="box">
+                                <!-- tab_container -->
+                                <div class="tab_container">
+                                    <div>
+                                        <!-- tabs -->
+                                        <div class="tabs">
+                                            <ul>
+                                                <li class="active">
+                                                    <a href="#none" rel="#tab3">게시판</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#none" rel="#tab4">TEMS</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- //tabs -->
+                                    </div>
+                                    <!-- tab contents -->
+                                    <div class="tab_content" id="tab3">
+                                        <!-- table_wrap -->
+                                        <div class="table_wrap">
+                                            <table>
+                                                <caption></caption>
+                                                <colgroup>
+                                                    <col style="width: 80px;">
+                                                    <col>
+                                                    <col style="width: 80px;">
+                                                    <col style="width: 100px;">
+                                                    <col style="width: 100px;">
+                                                </colgroup>
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">번호</th>
+                                                        <th scope="col">제목</th>
+                                                        <th scope="col">댓글</th>
+                                                        <th scope="col">작성자</th>
+                                                        <th scope="col">작성일</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>300</td>
+                                                        <td class="left">야간점검(1,2차)현황 자료입니다. 2021년 교통단속 장비 운영요원 전문화교육</td>
+                                                        <td>3</td>
+                                                        <td>홍길동 | 본부</td>
+                                                        <td>2022.11.06</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>301</td>
+                                                        <td class="left">원인자엑셀 업로드(정기검사) mts입력 중에 에러보고합니다.</td>
+                                                        <td>3</td>
+                                                        <td>홍길동 | 본부</td>
+                                                        <td>2022.11.06</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>302</td>
+                                                        <td class="left">관할서 추가 요청합니다</td>
+                                                        <td>3</td>
+                                                        <td>홍길동 | 본부</td>
+                                                        <td>2022.11.06</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>303</td>
+                                                        <td class="left">야간점검(1,2차)현황 자료입니다.</td>
+                                                        <td>3</td>
+                                                        <td>홍길동 | 본부</td>
+                                                        <td>2022.11.06</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!-- //table_wrap -->
+                                    </div>
+                                    <!-- //tab contents -->
+                                    <!-- tab contents -->
+                                    <div class="tab_content" id="tab4">
+                                        <!-- table_wrap -->
+                                        <div class="table_wrap">
+                                            <table>
+                                                <caption></caption>
+                                                <colgroup>
+                                                    <col style="width: 80px;">
+                                                    <col>
+                                                    <col style="width: 80px;">
+                                                    <col style="width: 100px;">
+                                                    <col style="width: 100px;">
+                                                </colgroup>
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">번호</th>
+                                                        <th scope="col">제목</th>
+                                                        <th scope="col">댓글</th>
+                                                        <th scope="col">작성자</th>
+                                                        <th scope="col">작성일</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>300</td>
+                                                        <td class="left">[대전청] TEMS 주민번호 깨짐현상</td>
+                                                        <td>3</td>
+                                                        <td>홍길동 | 본부</td>
+                                                        <td>2022.11.06</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>301</td>
+                                                        <td class="left">다기능 바이너리 화일 보기 프로그램</td>
+                                                        <td>3</td>
+                                                        <td>홍길동 | 본부</td>
+                                                        <td>2022.11.06</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>302</td>
+                                                        <td class="left">각 청 담당자님 표준제어기 문제점 공유 부탁드려요~!</td>
+                                                        <td>3</td>
+                                                        <td>홍길동 | 본부</td>
+                                                        <td>2022.11.06</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>303</td>
+                                                        <td class="left">야간점검(1,2차)현황 자료입니다.</td>
+                                                        <td>3</td>
+                                                        <td>홍길동 | 본부</td>
+                                                        <td>2022.11.06</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!-- //table_wrap -->
+                                    </div>
+                                    <!-- //tab contents -->
+                                </div>
+                                <!-- //tab_container -->
+                            </div>
+                            <!-- //게시판/TEMS -->
+                            <!-- 자료공유/안내자료 -->
+                            <div class="box">
+                                <!-- tab_container -->
+                                <div class="tab_container">
+                                    <div>
+                                        <!-- tabs -->
+                                        <div class="tabs">
+                                            <ul>
+                                                <li class="active">
+                                                    <a href="#none" rel="#tab5">자료공유</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#none" rel="#tab6">안내자료(정보제공)</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- //tabs -->
+                                    </div>
+                                    <!-- tab contents -->
+                                    <div class="tab_content" id="tab5">
+                                        <!-- table_wrap -->
+                                        <div class="table_wrap">
+                                            <table>
+                                                <caption></caption>
+                                                <colgroup>
+                                                    <col style="width: 80px;">
+                                                    <col>
+                                                    <col style="width: 80px;">
+                                                    <col style="width: 100px;">
+                                                    <col style="width: 100px;">
+                                                </colgroup>
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">번호</th>
+                                                        <th scope="col">제목</th>
+                                                        <th scope="col">댓글</th>
+                                                        <th scope="col">작성자</th>
+                                                        <th scope="col">작성일</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>300</td>
+                                                        <td class="left">[ 2022년 7월-(28) ]:: 경찰청 사전 설치정보 자료제공 기술지원</td>
+                                                        <td>3</td>
+                                                        <td>홍길동 | 본부</td>
+                                                        <td>2022.11.06</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>301</td>
+                                                        <td class="left">대구경찰청 2022년 8월 방송안내 리스트 (3대)</td>
+                                                        <td>3</td>
+                                                        <td>홍길동 | 본부</td>
+                                                        <td>2022.11.06</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>302</td>
+                                                        <td class="left">세종경찰청 2022년 08월 방송안내 리스트</td>
+                                                        <td>3</td>
+                                                        <td>홍길동 | 본부</td>
+                                                        <td>2022.11.06</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>303</td>
+                                                        <td class="left">충남경찰청 2022년 08월 방송안내 리스트</td>
+                                                        <td>3</td>
+                                                        <td>홍길동 | 본부</td>
+                                                        <td>2022.11.06</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!-- //table_wrap -->
+                                    </div>
+                                    <!-- //tab contents -->
+                                    <!-- tab contents -->
+                                    <div class="tab_content" id="tab6">
+                                        <!-- table_wrap -->
+                                        <div class="table_wrap">
+                                            <table>
+                                                <caption></caption>
+                                                <colgroup>
+                                                    <col style="width: 80px;">
+                                                    <col>
+                                                    <col style="width: 80px;">
+                                                    <col style="width: 100px;">
+                                                    <col style="width: 100px;">
+                                                </colgroup>
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">번호</th>
+                                                        <th scope="col">제목</th>
+                                                        <th scope="col">댓글</th>
+                                                        <th scope="col">작성자</th>
+                                                        <th scope="col">작성일</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>300</td>
+                                                        <td class="left">2021년 교통단속 장비 운영요원 전문화교육 2021년 교통단속 장비 운영요원 전문화교육</td>
+                                                        <td>3</td>
+                                                        <td>홍길동 | 본부</td>
+                                                        <td>2022.11.06</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>301</td>
+                                                        <td class="left">2019년도 상반기 직원 전문화교육 자료</td>
+                                                        <td>3</td>
+                                                        <td>홍길동 | 본부</td>
+                                                        <td>2022.11.06</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>302</td>
+                                                        <td class="left">[TESIS] 지방청별 스마트점검시스템 활용실적(2018년 12월 기준)</td>
+                                                        <td>3</td>
+                                                        <td>홍길동 | 본부</td>
+                                                        <td>2022.11.06</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>303</td>
+                                                        <td class="left">[교육교재] 2018년도 하반기 직원 전문화교육 교재</td>
+                                                        <td>3</td>
+                                                        <td>홍길동 | 본부</td>
+                                                        <td>2022.11.06</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!-- //table_wrap -->
+                                    </div>
+                                    <!-- //tab contents -->
+                                </div>
+                                <!-- //tab_container -->
+                            </div>
+                            <!-- //자료공유/안내자료 -->
+                        </div>
+                        <!-- box half bottom -->
+                    </div>
+                    <div class="floating_menu">
+                        <a href="#none">
+                            <span>공지사항</span>
+                        </a>
+                    </div>
+                </article>
+            </section>
+            <!-- //main contents -->
+        </main>
+        <!-- //container -->
+    </div>
+    <!-- //wrap -->
+</body>
+</html>
